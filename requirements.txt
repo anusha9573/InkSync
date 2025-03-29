@@ -1,0 +1,11 @@
+pdfplumber==0.11.5
+pytesseract==5.5.0.20241111
+streamlit==1.41.1
+torch==2.5.1+cu121
+python-dotenv
+fpdf
+langchain
+langchain-community
+langchain-ollama
+Pillow
+torchvision
