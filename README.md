@@ -12,22 +12,23 @@ The InkSync and Image Chat Agent is a Streamlit-based web application that allow
 
 ## 💻 Demo:
 
-![Demo 1: Chatbot Output](img/LLMframework.jpg)
+![Demo 1: Chatbot Output](imagecopy.png)
 
 ## 🎯 How It Works:
 
 ---
 
-![MultiPDF Chat App Diagram](img/Architecture.jpg)
+![MultiPDF Chat App Diagram](image.png)
 
 The application follows these steps to provide responses to your questions:
+
 1️⃣ Upload Files – Users can upload multiple PDFs and images (JPG, PNG, JPEG).
 
 2️⃣ Extract Text & Features –
 
-PDFs: Text is extracted using pdfplumber.
+->PDFs: Text is extracted using pdfplumber.
 
-Images: Text is extracted using OCR (pytesseract), and key features are extracted using ResNet-50.
+->Images: Text is extracted using OCR (pytesseract), and key features are extracted using ResNet-50.
 
 3️⃣ Store Data – The extracted text is split into chunks and stored in a FAISS vector database for efficient retrieval.
 
@@ -84,8 +85,6 @@ PDFs → Extracts text using pdfplumber.
 - **Langchain** – Framework for Retrieval-Augmented Generation (RAG).
 - **Tika** – Parses various file formats.
 - **OpenCV** – Image preprocessing.
-
-## ![Demo 4: Chatbot Output](img/CALMOutput.jpg)
 
 ## ▶️Installation
 
